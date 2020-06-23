@@ -1,0 +1,20 @@
+#stage {
+  margin: 50px auto 0;
+  background: #E0DEDA;
+  position: relative;
+  display: flex;
+  flex-flow: wrap;
+}
+#stage div {
+  width: 20px;
+  height: 20px;
+  background: #BBB;
+  border: #999 solid;
+  border-width: 0 1px 1px 0;
+  box-sizing: border-box;
+  display: block;
+  text-align: center;
+}
+#stage div.open {
+ background: #DDD;
+}
